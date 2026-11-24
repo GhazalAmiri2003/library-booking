@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Library form demo</title></head>
+<body>
+<h1>Local library form mock-up</h1>
+<p>Offline demonstration. No actual reservation is sent.</p>
+<form onsubmit="event.preventDefault(); document.getElementById('result').textContent='Demo completed — no reservation submitted.';">
+<p><label for="fieldname5_1">Nominativo</label> <input id="fieldname5_1" required></p>
+<p><label for="email_1">E-mail</label> <input id="email_1" type="email" required></p>
+<p><label for="fieldname4_1">Matricola/n° Documento (se utente esterno)</label> <input id="fieldname4_1" required></p>
+<button type="submit">Review complete</button>
+</form><p id="result" role="status"></p>
+</body></html>
